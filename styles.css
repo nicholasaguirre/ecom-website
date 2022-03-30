@@ -107,6 +107,8 @@ li {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    opacity: 0;
+    transform: translate(100%);
 }
 
 .menu--open {
@@ -175,10 +177,12 @@ header {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 50px;
     color: #7342d6;
     margin-bottom: 24px;
     text-align: center;
+    padding-top: 56px;
+
 }
 
 h2 {
